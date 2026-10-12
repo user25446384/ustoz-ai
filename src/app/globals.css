@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;          /* #F8FAFC */
+    --foreground: 222 47% 11%;          /* #0F172A */
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 239 84% 67%;             /* #6366F1 */
+    --primary-foreground: 0 0% 100%;
+    --primary-strong: 243 75% 59%;      /* #4F46E5: oq fonda matn/havola uchun (kontrast 6.3:1) */
+    --secondary: 258 90% 66%;           /* #8B5CF6 */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 214 32% 94%;
+    --muted-foreground: 215 19% 35%;
+    --accent: 214 32% 94%;
+    --accent-foreground: 222 47% 11%;
+    --success: 142 71% 45%;             /* #22C55E */
+    --success-strong: 142 72% 29%;      /* matn uchun */
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 214 32% 91%;
+    --input: 214 20% 78%;
+    --ring: 239 84% 67%;
+    --radius: 0.875rem;
+  }
+  .dark {
+    --background: 222 47% 11%;          /* #0F172A */
+    --foreground: 210 40% 98%;
+    --card: 222 41% 14%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 41% 14%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 239 84% 67%;
+    --primary-foreground: 0 0% 100%;
+    --primary-strong: 230 94% 82%;
+    --secondary: 258 90% 66%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 217 33% 18%;
+    --muted-foreground: 215 20% 70%;
+    --accent: 217 33% 20%;
+    --accent-foreground: 210 40% 98%;
+    --success: 142 71% 45%;
+    --success-strong: 142 69% 58%;
+    --destructive: 0 72% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 217 33% 22%;
+    --input: 217 33% 28%;
+    --ring: 239 84% 67%;
+  }
+  * { @apply border-border; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { @apply bg-background text-foreground; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}

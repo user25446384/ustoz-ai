@@ -1,0 +1,620 @@
+{
+  "app": {
+    "name": "UstozAI",
+    "tagline": "AI bilan aqlliroq o‘rganing.",
+    "subtitle": "UstozAI sizning bilim darajangizni tahlil qiladi va siz uchun individual o‘quv rejasini yaratadi."
+  },
+  "common": {
+    "loading": "Yuklanmoqda…",
+    "retry": "Qayta urinish",
+    "save": "Saqlash",
+    "saved": "Saqlandi",
+    "cancel": "Bekor qilish",
+    "close": "Yopish",
+    "logout": "Chiqish",
+    "optional": "ixtiyoriy",
+    "show": "Ko‘rsatish",
+    "hide": "Yashirish",
+    "skipToContent": "Asosiy mazmunga o‘tish",
+    "back": "Orqaga",
+    "breadcrumb": "Joylashuv",
+    "pagination": "Sahifalar",
+    "prev": "Oldingi",
+    "next": "Keyingi",
+    "pageOf": "{page} / {total}",
+    "delete": "O‘chirish"
+  },
+  "theme": {
+    "toggle": "Mavzuni almashtirish",
+    "light": "Yorug‘",
+    "dark": "Qorong‘i",
+    "system": "Tizim"
+  },
+  "roles": {
+    "student": "O‘quvchi",
+    "teacher": "O‘qituvchi",
+    "parent": "Ota-ona",
+    "admin": "Administrator"
+  },
+  "nav": {
+    "main": "Asosiy menyu",
+    "menu": "Menyu",
+    "close": "Menyuni yopish",
+    "home": "Bosh sahifa",
+    "learn": "O‘rganish",
+    "ai": "AI ustoz",
+    "plan": "O‘quv reja",
+    "progress": "Progress",
+    "achievements": "Yutuqlar",
+    "classes": "Sinflar",
+    "assignments": "Topshiriqlar",
+    "notifications": "Bildirishnomalar",
+    "profile": "Profil",
+    "settings": "Sozlamalar",
+    "subscription": "Obuna",
+    "userMenu": "Foydalanuvchi menyusi",
+    "teacher": {
+      "panel": "Boshqaruv",
+      "students": "O‘quvchilar",
+      "classes": "Sinflar",
+      "lessons": "Darslar",
+      "quizzes": "Quizlar",
+      "assignments": "Topshiriqlar",
+      "analytics": "Analitika"
+    },
+    "parent": {
+      "panel": "Bosh sahifa",
+      "children": "Farzandlar",
+      "progress": "Progress",
+      "analytics": "Analitika"
+    },
+    "admin": {
+      "panel": "Boshqaruv",
+      "users": "Foydalanuvchilar",
+      "students": "O‘quvchilar",
+      "teachers": "O‘qituvchilar",
+      "subjects": "Fanlar",
+      "topics": "Mavzular",
+      "lessons": "Darslar",
+      "quizzes": "Quizlar",
+      "questions": "Savollar",
+      "subscriptions": "Obunalar",
+      "payments": "To‘lovlar",
+      "analytics": "Analitika",
+      "settings": "Tizim sozlamalari",
+      "audit": "Audit log"
+    }
+  },
+  "notifications": {
+    "unread": "{count} ta o‘qilmagan bildirishnoma"
+  },
+  "banners": {
+    "verifyEmail": "Emailingiz hali tasdiqlanmagan. Pochtangizni tekshiring.",
+    "resend": "Qayta yuborish",
+    "resent": "Tasdiqlash xati yuborildi",
+    "maintenance": "Texnik ishlar olib borilmoqda.",
+    "maintenanceAdmin": "Faqat administratorlar kira oladi."
+  },
+  "auth": {
+    "login": {
+      "title": "Hisobingizga kiring",
+      "subtitle": "UstozAI bilan o‘rganishni davom ettiring",
+      "identifier": "Email yoki username",
+      "identifierPlaceholder": "email@misol.uz",
+      "password": "Parol",
+      "submit": "Kirish",
+      "forgot": "Parolni unutdingizmi?",
+      "noAccount": "Hisobingiz yo‘qmi?",
+      "signUp": "Ro‘yxatdan o‘ting",
+      "welcome": "Xush kelibsiz, {name}!"
+    },
+    "register": {
+      "title": "Hisob yaratish",
+      "subtitle": "Bir necha soniyada boshlang",
+      "fullName": "To‘liq ism",
+      "username": "Username",
+      "usernameHint": "Kichik lotin harflari, raqamlar va _ (3–30 belgi)",
+      "email": "Email",
+      "phone": "Telefon",
+      "phoneHint": "Masalan: +998901234567",
+      "password": "Parol",
+      "passwordHint": "Kamida 8 belgi, harf va raqam bilan",
+      "confirm": "Parolni tasdiqlang",
+      "role": "Siz kimsiz?",
+      "submit": "Ro‘yxatdan o‘tish",
+      "haveAccount": "Hisobingiz bormi?",
+      "signIn": "Kirish",
+      "success": "Hisob yaratildi! Emailingizni tasdiqlang.",
+      "closed": "Ro‘yxatdan o‘tish hozircha vaqtincha yopiq.",
+      "teacherNote": "Hisobingiz administrator tasdiqlagandan keyin to‘liq ishlaydi.",
+      "roleDesc": {
+        "student": "Darslar, testlar va AI ustoz",
+        "teacher": "Sinflar, darslar va topshiriqlar",
+        "parent": "Farzandingiz natijalarini kuzating"
+      }
+    },
+    "forgot": {
+      "title": "Parolni tiklash",
+      "subtitle": "Emailingizni kiriting, tiklash havolasini yuboramiz",
+      "email": "Email",
+      "submit": "Havola yuborish",
+      "back": "Kirishga qaytish",
+      "sent": "Agar bu email ro‘yxatdan o‘tgan bo‘lsa, tiklash havolasi yuborildi. Pochtangizni tekshiring."
+    },
+    "reset": {
+      "title": "Yangi parol",
+      "subtitle": "Yangi parol o‘ylab toping",
+      "password": "Yangi parol",
+      "confirm": "Parolni tasdiqlang",
+      "submit": "Parolni yangilash",
+      "success": "Parol yangilandi. Endi kirishingiz mumkin.",
+      "noToken": "Havola yaroqsiz yoki to‘liq emas. Parolni tiklashni qaytadan so‘rang.",
+      "requestNew": "Yangi havola so‘rash"
+    },
+    "verify": {
+      "title": "Emailni tasdiqlash",
+      "verifying": "Tasdiqlanmoqda…",
+      "success": "Email muvaffaqiyatli tasdiqlandi!",
+      "failed": "Havola yaroqsiz yoki muddati o‘tgan.",
+      "noToken": "Tasdiqlash havolasi to‘liq emas.",
+      "continue": "Davom etish"
+    }
+  },
+  "settings": {
+    "title": "Sozlamalar",
+    "appearance": {
+      "title": "Ko‘rinish",
+      "desc": "Yorug‘ yoki qorong‘i mavzuni tanlang. Tanlovingiz hisobingizda saqlanadi."
+    },
+    "language": {
+      "title": "Til",
+      "desc": "Hozircha faqat o‘zbek tili mavjud. Rus va ingliz tillari keyin qo‘shiladi.",
+      "uz": "O‘zbekcha"
+    },
+    "profile": {
+      "title": "Profil",
+      "fullName": "To‘liq ism",
+      "phone": "Telefon",
+      "saved": "Profil yangilandi"
+    },
+    "security": {
+      "title": "Parolni o‘zgartirish",
+      "current": "Joriy parol",
+      "new": "Yangi parol",
+      "confirm": "Yangi parolni tasdiqlang",
+      "submit": "Parolni o‘zgartirish",
+      "changed": "Parol o‘zgartirildi. Boshqa qurilmalardan chiqarildingiz."
+    },
+    "sessions": {
+      "title": "Qurilmalar va sessiyalar",
+      "desc": "Hisobingizga kirilgan qurilmalar. Tanimagan qurilmani yoping.",
+      "current": "Joriy qurilma",
+      "lastUsed": "Oxirgi faollik",
+      "revoke": "Yopish",
+      "revoked": "Sessiya yopildi",
+      "logoutAll": "Barcha qurilmalardan chiqish",
+      "logoutAllConfirm": "Barcha qurilmalardan chiqasizmi? Qayta kirishingiz kerak bo‘ladi.",
+      "unknownDevice": "Noma‘lum qurilma"
+    }
+  },
+  "validation": {
+    "required": "Bu maydon majburiy",
+    "email": "Email noto‘g‘ri",
+    "fullName": "Kamida 2 ta belgi kiriting",
+    "username": "3–30 belgi: kichik lotin harflari, raqamlar va _",
+    "phone": "Telefon +998XXXXXXXXX ko‘rinishida bo‘lsin",
+    "passwordMin": "Parol kamida 8 belgidan iborat bo‘lsin",
+    "passwordWeak": "Parolda kamida bitta harf va bitta raqam bo‘lsin",
+    "passwordMismatch": "Parollar mos emas",
+    "taken": "Bu qiymat band",
+    "invalid": "Qiymat noto‘g‘ri",
+    "tooLong": "Juda uzun"
+  },
+  "errors": {
+    "UNKNOWN": "Kutilmagan xatolik yuz berdi. Qayta urinib ko‘ring.",
+    "NETWORK_ERROR": "Internetga ulanib bo‘lmadi. Aloqani tekshiring.",
+    "SERVER": "Serverda xatolik. Birozdan so‘ng qayta urinib ko‘ring.",
+    "INVALID_CREDENTIALS": "Login yoki parol noto‘g‘ri",
+    "TOO_MANY_ATTEMPTS": "Juda ko‘p urinish. 15 daqiqadan so‘ng qayta urinib ko‘ring.",
+    "TOO_MANY_REQUESTS": "Juda ko‘p so‘rov. Birozdan so‘ng qayta urinib ko‘ring.",
+    "ACCOUNT_BANNED": "Hisobingiz bloklangan.",
+    "USER_EXISTS": "Bunday foydalanuvchi allaqachon mavjud",
+    "REGISTRATION_DISABLED": "Ro‘yxatdan o‘tish vaqtincha yopiq",
+    "INVALID_TOKEN": "Havola yaroqsiz yoki muddati o‘tgan",
+    "INVALID_CURRENT_PASSWORD": "Joriy parol noto‘g‘ri",
+    "ALREADY_VERIFIED": "Email allaqachon tasdiqlangan",
+    "MAINTENANCE": "Texnik ishlar olib borilmoqda",
+    "VALIDATION_ERROR": "Kiritilgan ma’lumotlarni tekshiring",
+    "SESSION_REVOKED": "Sessiya tugagan. Qayta kiring.",
+    "TOKEN_EXPIRED": "Sessiya tugagan. Qayta kiring.",
+    "CSRF_ORIGIN": "So‘rov rad etildi. Sahifani qayta yuklang.",
+    "fields": {
+      "USERNAME_INVALID": "3–30 belgi: kichik lotin harflari, raqamlar va _",
+      "PHONE_INVALID": "Telefon +998XXXXXXXXX ko‘rinishida bo‘lsin",
+      "PASSWORD_WEAK": "Parolda kamida bitta harf va bitta raqam bo‘lsin",
+      "PASSWORD_MISMATCH": "Parollar mos emas"
+    },
+    "INVALID_SUBJECTS": "Tanlangan fanlardan biri topilmadi",
+    "QUOTA_EXCEEDED": "Kunlik limit tugadi. Ertaga qayta urinib ko‘ring.",
+    "NOT_FOUND": "Topilmadi",
+    "FORBIDDEN": "Ruxsat yo‘q",
+    "STUDENT_ONLY": "Bu amal faqat o‘quvchilar uchun",
+    "QUIZ_EMPTY": "Testda savollar yo‘q",
+    "ATTEMPT_EXPIRED": "Test vaqti tugagan",
+    "ATTEMPT_COMPLETED": "Test allaqachon yakunlangan",
+    "FEATURE_LOCKED": "Bu imkoniyat sizning tarifingizda mavjud emas.",
+    "AI_NOT_CONFIGURED": "AI hozircha sozlanmagan.",
+    "AI_DISABLED": "AI vaqtincha o‘chirilgan.",
+    "AI_TIMEOUT": "AI javobi kechikdi. Qayta urinib ko‘ring.",
+    "AI_BUSY": "AI hozir band. Birozdan so‘ng urinib ko‘ring.",
+    "AI_UNAVAILABLE": "AI vaqtincha mavjud emas.",
+    "AI_PROVIDER_ERROR": "AI xizmatida xatolik. Keyinroq urinib ko‘ring.",
+    "AI_INVALID_RESPONSE": "AI javobini qayta ishlab bo‘lmadi. Qayta urinib ko‘ring.",
+    "ALREADY_REPORTED": "Siz bu kontent haqida allaqachon shikoyat qilgansiz.",
+    "OWN_CONTENT": "O‘z kontentingizga shikoyat qilib bo‘lmaydi."
+  },
+  "onboarding": {
+    "stepOf": "Qadam {current} / {total}",
+    "progress": "Onboarding jarayoni",
+    "next": "Davom etish",
+    "back": "Orqaga",
+    "saveAndTest": "Saqlash va testga o‘tish",
+    "exit": "Chiqish",
+    "name": {
+      "title": "Sizni qanday chaqiramiz?",
+      "desc": "Ismingiz AI ustoz bilan suhbatda ishlatiladi.",
+      "label": "To‘liq ism"
+    },
+    "grade": {
+      "title": "Qaysi sinfda o‘qiysiz?",
+      "desc": "Darslar va testlar sinfingizga moslashtiriladi.",
+      "label": "Sinf",
+      "option": "{n}-sinf",
+      "levelTitle": "Bilim darajangizni qanday baholaysiz?",
+      "levelHint": "Keyingi bosqichdagi test buni aniqlashtiradi."
+    },
+    "level": {
+      "beginner": "Boshlang‘ich",
+      "intermediate": "O‘rta",
+      "advanced": "Yuqori",
+      "beginnerDesc": "Mavzularni endi o‘rganyapman",
+      "intermediateDesc": "Asosiy tushunchalarni bilaman",
+      "advancedDesc": "Murakkab masalalarni yecha olaman"
+    },
+    "subjects": {
+      "title": "Qaysi fanlarni o‘rganmoqchisiz?",
+      "desc": "Bir yoki bir nechta fanni tanlang.",
+      "selected": "Tanlandi: {count}",
+      "empty": "Hozircha fanlar mavjud emas. Administratorga murojaat qiling.",
+      "topics": "{count} ta mavzu",
+      "required": "Kamida bitta fanni tanlang"
+    },
+    "goal": {
+      "title": "Maqsadingiz nima?",
+      "desc": "Bu ixtiyoriy, lekin AI ustoz sizga mos yordam berishi uchun foydali.",
+      "label": "Maqsadingiz",
+      "placeholder": "Masalan: kasrlarni mukammal o‘rganish",
+      "presets": "Tezkor tanlov",
+      "exam": "Imtihonga tayyorlanish",
+      "reinforce": "Bilimimni mustahkamlash",
+      "newTopics": "Yangi mavzularni o‘rganish",
+      "olympiad": "Olimpiadaga tayyorlanish"
+    },
+    "time": {
+      "title": "Kuniga qancha vaqt o‘qiy olasiz?",
+      "desc": "Kunlik maqsad va eslatmalar shunga moslanadi.",
+      "minutes": "{n} daqiqa",
+      "when": "Qaysi vaqtda o‘qish qulay?",
+      "morning": "Ertalab",
+      "afternoon": "Tushdan keyin",
+      "evening": "Kechqurun",
+      "any": "Farqi yo‘q"
+    },
+    "diagnostic": {
+      "title": "Bilim darajangizni aniqlaymiz",
+      "desc": "Qisqa diagnostik test kuchli va zaif mavzularingizni aniqlaydi hamda boshlang‘ich darajangizni belgilaydi.",
+      "questions": "{count} ta savol",
+      "duration": "{count} daqiqa",
+      "start": "Testni boshlash",
+      "skip": "Hozircha o‘tkazib yuborish",
+      "skipHint": "Testni keyinroq istalgan vaqtda yechishingiz mumkin.",
+      "none": "Tanlangan fanlar uchun diagnostik test hali mavjud emas. Dashboardga o‘tib, o‘rganishni boshlashingiz mumkin.",
+      "toDashboard": "Dashboardga o‘tish",
+      "resultTitle": "Test yakunlandi!",
+      "yourLevel": "Boshlang‘ich darajangiz",
+      "loading": "Testlar yuklanmoqda…"
+    }
+  },
+  "quiz": {
+    "question": "Savol {current} / {total}",
+    "points": "{count} ball",
+    "answered": "Javob berildi: {count} / {total}",
+    "prev": "Oldingi",
+    "next": "Keyingi",
+    "finish": "Yakunlash",
+    "confirmSubmit": "{count} ta savolga javob berilmagan. Baribir yakunlaysizmi?",
+    "navigation": "Savollar",
+    "goTo": "{n}-savolga o‘tish",
+    "timeLeft": "Qolgan vaqt",
+    "timeWarning": "Vaqt tugashiga 1 daqiqadan kam qoldi!",
+    "timeUp": "Vaqt tugadi, javoblar yuborilmoqda…",
+    "save": {
+      "saving": "Saqlanmoqda…",
+      "saved": "Saqlandi",
+      "error": "Saqlanmadi (internetni tekshiring)"
+    },
+    "true": "To‘g‘ri",
+    "false": "Noto‘g‘ri",
+    "fillPlaceholder": "Javobingizni yozing",
+    "shortPlaceholder": "Javobingizni yozing…",
+    "level": {
+      "weak": "Zaif",
+      "practice": "Mashq kerak",
+      "strong": "Kuchli"
+    },
+    "result": {
+      "title": "Natija",
+      "great": "A’lo natija!",
+      "good": "Yaxshi, davom eting!",
+      "keepGoing": "Mavzularni qaytarib, yana urinib ko‘ring.",
+      "score": "{score} / {max} ball",
+      "correct": "To‘g‘ri",
+      "wrong": "Xato",
+      "unanswered": "Javobsiz",
+      "time": "Sarflangan vaqt",
+      "topics": "Mavzular bo‘yicha tahlil",
+      "review": "Savollar tahlili",
+      "yourAnswer": "Sizning javobingiz",
+      "correctAnswer": "To‘g‘ri javob",
+      "explanation": "Izoh",
+      "noAnswer": "Javob berilmagan",
+      "rewards": "Mukofotlar",
+      "xp": "+{count} XP",
+      "streakBonus": "Streak bonusi",
+      "level": "{level}-daraja",
+      "newAchievement": "Yangi yutuq"
+    }
+  },
+  "dashboard": {
+    "greeting": {
+      "morning": "Xayrli tong",
+      "day": "Xayrli kun",
+      "evening": "Xayrli kech"
+    },
+    "hello": "{greeting}, {name}!",
+    "subtitle": "Bugun o‘rganishni davom ettiramiz.",
+    "goal": {
+      "title": "Bugungi maqsad",
+      "minutes": "{done} / {goal} daqiqa",
+      "reached": "Maqsad bajarildi!",
+      "left": "Yana {count} daqiqa"
+    },
+    "streak": {
+      "title": "7 kunlik streak",
+      "days": "{count} kun",
+      "studied": "Bugun o‘qidingiz!",
+      "remind": "Bugun o‘qing, streak uzilmasin.",
+      "none": "Bugun boshlang, streak yarating.",
+      "studiedDay": "o‘qigan",
+      "missedDay": "o‘qimagan"
+    },
+    "progress": {
+      "title": "Umumiy progress",
+      "empty": "Birinchi quizni yeching",
+      "mastery": "O‘zlashtirish"
+    },
+    "xp": {
+      "title": "Daraja",
+      "level": "{level}-daraja",
+      "total": "{count} XP",
+      "toNext": "Keyingi darajagacha {count} XP"
+    },
+    "next": {
+      "title": "Keyingi dars",
+      "minutes": "{count} daqiqa",
+      "continue": "Davom etish",
+      "planDay": "Reja: {day}-kun",
+      "empty": "Hozircha tavsiya etilgan dars yo‘q.",
+      "browse": "Fanlarni ko‘rish"
+    },
+    "ai": {
+      "title": "AI tavsiyasi",
+      "empty": "Quiz yechganingizdan keyin AI ustoz sizga shaxsiy tavsiyalar beradi.",
+      "dismiss": "Yopish",
+      "open": "Ko‘rish"
+    },
+    "weak": {
+      "title": "Zaif mavzular",
+      "empty": "Hozircha zaif mavzu yo‘q. Zo‘r!",
+      "noData": "Quiz yechganingizdan keyin zaif mavzular shu yerda ko‘rinadi."
+    },
+    "plan": {
+      "title": "Joriy o‘quv reja",
+      "lessons": "{done} / {total} dars",
+      "empty": "Hali o‘quv rejangiz yo‘q.",
+      "create": "Reja yaratish",
+      "open": "Rejani ochish"
+    },
+    "charts": {
+      "weekly": "Haftalik o‘qish vaqti",
+      "weeklyEmpty": "Bu hafta hali o‘qimadingiz.",
+      "goalLine": "Maqsad",
+      "quiz": "Quiz natijalari",
+      "quizEmpty": "Hali quiz yechmadingiz.",
+      "mastery": "Mavzular bo‘yicha o‘zlashtirish",
+      "masteryEmpty": "Mavzular bo‘yicha ma’lumot hali yo‘q.",
+      "minutes": "daq"
+    },
+    "subjects": {
+      "title": "Fanlar bo‘yicha progress",
+      "empty": "Fan tanlanmagan.",
+      "lessons": "{done} / {total} dars",
+      "mastery": "O‘zlashtirish: {value}%",
+      "notAssessed": "Hali baholanmagan"
+    },
+    "recent": {
+      "title": "Oxirgi quizlar",
+      "empty": "Hali quiz yechilmagan."
+    },
+    "achievements": {
+      "title": "Yutuqlar",
+      "empty": "Hali yutuq yo‘q. Birinchi darsni yakunlang!",
+      "earned": "{earned} / {total} olingan",
+      "all": "Barchasi",
+      "next": "Keyingisi"
+    },
+    "weekdays": {
+      "0": "Yak",
+      "1": "Dush",
+      "2": "Sesh",
+      "3": "Chor",
+      "4": "Pay",
+      "5": "Jum",
+      "6": "Shan"
+    }
+  },
+  "difficulty": {
+    "easy": "Oson",
+    "medium": "O‘rta",
+    "hard": "Qiyin"
+  },
+  "band": {
+    "weak": "Zaif",
+    "practice": "Mashq kerak",
+    "strong": "Kuchli",
+    "notAssessed": "Baholanmagan"
+  },
+  "learn": {
+    "title": "O‘rganish",
+    "subtitle": "Fanni tanlang va o‘rganishda davom eting.",
+    "subjects": "Fanlarim",
+    "allSubjects": "Barcha fanlar",
+    "recommended": "Siz uchun tavsiyalar",
+    "noSubjects": "Hozircha fanlar mavjud emas.",
+    "noRecs": "Quiz yechganingizdan keyin shaxsiy tavsiyalar shu yerda paydo bo‘ladi."
+  },
+  "subjects": {
+    "title": "Fanlar",
+    "subtitle": "Barcha mavjud fanlar",
+    "topics": "{count} ta mavzu",
+    "empty": "Fanlar topilmadi."
+  },
+  "subject": {
+    "topics": "Mavzular",
+    "lessons": "{done} / {total} dars",
+    "locked": "avval oldingi mavzuni o‘zlashtirish tavsiya etiladi",
+    "noTopics": "Bu fanda mavzular hali yo‘q.",
+    "progress": "Fan bo‘yicha progress",
+    "mastery": "O‘zlashtirish: {value}%"
+  },
+  "topic": {
+    "subtopics": "Ichki mavzular",
+    "lessons": "Darslar",
+    "quizzes": "Quizlar",
+    "noLessons": "Bu mavzuda hali darslar yo‘q.",
+    "noQuizzes": "Bu mavzuda hali quizlar yo‘q.",
+    "minutes": "{count} daq",
+    "draft": "Qoralama",
+    "questions": "{count} ta savol",
+    "mastery": "O‘zlashtirish: {value}%",
+    "lessonsDone": "{done} / {total} dars bajarildi",
+    "open": "Ochish"
+  },
+  "lesson": {
+    "minutes": "{count} daqiqa",
+    "completed": "Yakunlangan",
+    "complete": "Yakunlash",
+    "completedToast": "Dars yakunlandi!",
+    "xpGained": "+{count} XP",
+    "achievementToast": "Yangi yutuq: {name}",
+    "askAi": "AI’dan so‘rash",
+    "takeQuiz": "Quiz yechish",
+    "save": "Saqlash",
+    "saved": "Saqlangan",
+    "draft": "Bu dars hali nashr etilmagan (qoralama).",
+    "attachments": "Biriktirilgan fayllar",
+    "prev": "Oldingi dars",
+    "next": "Keyingi dars",
+    "navLabel": "Darslar orasida o‘tish",
+    "topicLessons": "Mavzudagi darslar",
+    "topicQuizzes": "Mavzu quizlari",
+    "noQuizzes": "Bu mavzuda hali quiz yo‘q.",
+    "recs": "AI tavsiyalari",
+    "noRecs": "Bu mavzu bo‘yicha tavsiya yo‘q.",
+    "current": "Hozirgi dars",
+    "open": "Ochish",
+    "notes": {
+      "title": "Qaydlarim",
+      "placeholder": "Dars bo‘yicha qayd yozing…",
+      "add": "Qo‘shish",
+      "empty": "Hali qaydlar yo‘q.",
+      "deleted": "Qayd o‘chirildi",
+      "delete": "Qaydni o‘chirish"
+    },
+    "ai": {
+      "title": "AI yordamchi",
+      "desc": "Darsni tez takrorlash uchun.",
+      "summary": "Qisqacha xulosa",
+      "flashcards": "Flashcardlar",
+      "hint": "Kartani aylantirish uchun bosing",
+      "front": "Savol",
+      "back": "Javob",
+      "generating": "Tayyorlanmoqda…"
+    }
+  },
+  "report": {
+    "title": "Nima noto‘g‘ri?",
+    "button": "Shikoyat",
+    "sent": "Shikoyatingiz qabul qilindi. Rahmat!",
+    "reasons": {
+      "INCORRECT": "Noto‘g‘ri ma’lumot",
+      "INAPPROPRIATE": "Nomaqbul mazmun",
+      "COPYRIGHT": "Mualliflik huquqi",
+      "OTHER": "Boshqa sabab"
+    }
+  },
+  "quizPage": {
+    "start": "Boshlash yoki davom ettirish",
+    "questions": "{count} ta savol",
+    "duration": "{count} daqiqa",
+    "noLimit": "Vaqt cheklanmagan",
+    "timerNote": "Boshlaganingizdan keyin taymer to‘xtamaydi. Javoblaringiz avtomatik saqlanadi, sahifa yopilsa ham davom ettirishingiz mumkin.",
+    "history": "Oldingi urinishlar",
+    "noHistory": "Hali urinishlar yo‘q.",
+    "diagnostic": "Diagnostik test",
+    "viewResult": "Natijani ko‘rish",
+    "draft": "Bu quiz hali nashr etilmagan.",
+    "studentOnly": "Quizni faqat o‘quvchilar yecha oladi."
+  },
+  "quizResultPage": {
+    "retry": "Qayta urinish",
+    "toTopic": "Mavzuga qaytish",
+    "toDashboard": "Bosh sahifa"
+  },
+  "progressPage": {
+    "title": "Progress",
+    "subtitle": "O‘qish natijalaringiz va faolligingiz",
+    "activity": "Faollik",
+    "range": "Davr",
+    "days7": "7 kun",
+    "days30": "30 kun",
+    "totalMinutes": "Jami: {count} daqiqa",
+    "totalXp": "{count} XP",
+    "locked": "30 kunlik grafik PRO tarifida mavjud.",
+    "upgrade": "Tariflarni ko‘rish",
+    "topics": "Mavzular bo‘yicha o‘zlashtirish",
+    "all": "Barchasi",
+    "empty": "Bu bo‘limda mavzular yo‘q.",
+    "attempts": "{count} ta urinish",
+    "minutesLabel": "daq",
+    "filter": "Daraja bo‘yicha filtr"
+  },
+  "achievementsPage": {
+    "title": "Yutuqlar",
+    "subtitle": "{earned} / {total} yutuq olingan",
+    "earned": "Olingan",
+    "locked": "Olinmagan",
+    "xp": "+{count} XP",
+    "empty": "Yutuqlar hali mavjud emas."
+  }
+}
